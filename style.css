@@ -1,0 +1,20 @@
+.CONTAINER1{
+	background-color: #E3D9C9;
+}
+.CONTAINER2{
+	background-color: #E9E6DD;
+	width: 303PX;
+	padding: 15px;
+	margin: auto;
+	box-shadow: 2px 2px 10px rgba(158, 146, 127, 0.8);
+}
+
+#submit {
+	background-color: #FFF8F3;
+	color: #838B6F;
+}
+
+body{
+	background-image: url(https://st2.depositphotos.com/1011352/5367/i/450/depositphotos_53678297-stock-photo-hand-painted-watercolor.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;

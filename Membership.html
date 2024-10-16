@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Membership.html</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="CONTAINER1">
+  <h1 style="text-align: center;"><span style="color: #838B6F;">Club Membership Form</h1>
+</div>
+<br>
+
+<div class="CONTAINER2">
+	<form action="">
+		<label for="NAME">Name:</label>
+		<br>
+		<input type="text" id="NAME" name="name">
+		<br><br>
+
+		<label for="AGE">Age:</label>
+		<br>
+		<input type="number" id="AGE" name="age">
+		<br><br>
+
+		<label for="GENDER">Gender:</label>
+		<br>
+		<input type="radio" id="male" name="gender">
+		   <label for="male">Male</label>
+		<br>
+		<input type="radio" id="femal" name="gender">
+		   <label for="female">Female</label>
+		<br><br>
+
+		<label for="section">Grade and Section</label>
+		<br>
+    <select id="sections" name="sections">
+		<option value="9E">9-EMERALD</option>
+		<option value="9R">9-RUBY</option>
+		<option value="9S">9-SAPPHIRE</option>
+		<option value="9T">9-topaz</option>
+	</select>
+    <br><br>
+
+    <label for="clubs">Choose a Club</label>
+    <select id="clubs" name="clubs">
+		<option value="glee">Glee Club</option>
+		<option value="marching">Marching Band</option>
+		<option value="varsity">Varsity Team</option>
+		<option value="comms">Communications</option>
+		<option value="dance">Dance Club</option>
+	</select>
+	<br><br>
+
+	<label for="why">Why do you want to join the club?</label>
+	<br>
+	<textarea rows="4" cols="30" placeholder="Type here..."></textarea>
+	<br><br>
+
+	<input type="submit" id="submit" name="submit" value="Join Now!">
+	</form>
+</div>
+
+</body>
+</html>
